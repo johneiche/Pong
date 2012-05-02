@@ -1,0 +1,279 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39A50ECD1475B5AA00D165D9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39A50ECC1475B5AA00D165D9 /* UIKit.framework */; };
+		39A50ECF1475B5AA00D165D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39A50ECE1475B5AA00D165D9 /* Foundation.framework */; };
+		39A50ED11475B5AA00D165D9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39A50ED01475B5AA00D165D9 /* CoreGraphics.framework */; };
+		39A50ED71475B5AB00D165D9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 39A50ED51475B5AB00D165D9 /* InfoPlist.strings */; };
+		39A50ED91475B5AB00D165D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 39A50ED81475B5AB00D165D9 /* main.m */; };
+		39A50EDD1475B5AB00D165D9 /* PongAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 39A50EDC1475B5AB00D165D9 /* PongAppDelegate.m */; };
+		39A50EE51475B68300D165D9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39A50EE41475B68300D165D9 /* ViewController.m */; };
+		39A50EE81475B69300D165D9 /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = 39A50EE71475B69300D165D9 /* View.m */; };
+		39A50EEA1475B81F00D165D9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39A50EE91475B81F00D165D9 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		39A50EC81475B5AA00D165D9 /* Pong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pong.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39A50ECC1475B5AA00D165D9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		39A50ECE1475B5AA00D165D9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		39A50ED01475B5AA00D165D9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		39A50ED41475B5AB00D165D9 /* Pong-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pong-Info.plist"; sourceTree = "<group>"; };
+		39A50ED61475B5AB00D165D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		39A50ED81475B5AB00D165D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		39A50EDA1475B5AB00D165D9 /* Pong-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pong-Prefix.pch"; sourceTree = "<group>"; };
+		39A50EDB1475B5AB00D165D9 /* PongAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PongAppDelegate.h; sourceTree = "<group>"; };
+		39A50EDC1475B5AB00D165D9 /* PongAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PongAppDelegate.m; sourceTree = "<group>"; };
+		39A50EE31475B68300D165D9 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		39A50EE41475B68300D165D9 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		39A50EE61475B69300D165D9 /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
+		39A50EE71475B69300D165D9 /* View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
+		39A50EE91475B81F00D165D9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39A50EC51475B5AA00D165D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39A50EEA1475B81F00D165D9 /* QuartzCore.framework in Frameworks */,
+				39A50ECD1475B5AA00D165D9 /* UIKit.framework in Frameworks */,
+				39A50ECF1475B5AA00D165D9 /* Foundation.framework in Frameworks */,
+				39A50ED11475B5AA00D165D9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39A50EBD1475B5AA00D165D9 = {
+			isa = PBXGroup;
+			children = (
+				39A50ED21475B5AA00D165D9 /* Pong */,
+				39A50ECB1475B5AA00D165D9 /* Frameworks */,
+				39A50EC91475B5AA00D165D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		39A50EC91475B5AA00D165D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39A50EC81475B5AA00D165D9 /* Pong.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39A50ECB1475B5AA00D165D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39A50EE91475B81F00D165D9 /* QuartzCore.framework */,
+				39A50ECC1475B5AA00D165D9 /* UIKit.framework */,
+				39A50ECE1475B5AA00D165D9 /* Foundation.framework */,
+				39A50ED01475B5AA00D165D9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		39A50ED21475B5AA00D165D9 /* Pong */ = {
+			isa = PBXGroup;
+			children = (
+				39A50EDB1475B5AB00D165D9 /* PongAppDelegate.h */,
+				39A50EDC1475B5AB00D165D9 /* PongAppDelegate.m */,
+				39A50EE31475B68300D165D9 /* ViewController.h */,
+				39A50EE41475B68300D165D9 /* ViewController.m */,
+				39A50EE61475B69300D165D9 /* View.h */,
+				39A50EE71475B69300D165D9 /* View.m */,
+				39A50ED31475B5AB00D165D9 /* Supporting Files */,
+			);
+			path = Pong;
+			sourceTree = "<group>";
+		};
+		39A50ED31475B5AB00D165D9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				39A50ED41475B5AB00D165D9 /* Pong-Info.plist */,
+				39A50ED51475B5AB00D165D9 /* InfoPlist.strings */,
+				39A50ED81475B5AB00D165D9 /* main.m */,
+				39A50EDA1475B5AB00D165D9 /* Pong-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39A50EC71475B5AA00D165D9 /* Pong */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39A50EE01475B5AB00D165D9 /* Build configuration list for PBXNativeTarget "Pong" */;
+			buildPhases = (
+				39A50EC41475B5AA00D165D9 /* Sources */,
+				39A50EC51475B5AA00D165D9 /* Frameworks */,
+				39A50EC61475B5AA00D165D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pong;
+			productName = Pong;
+			productReference = 39A50EC81475B5AA00D165D9 /* Pong.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39A50EBF1475B5AA00D165D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 39A50EC21475B5AA00D165D9 /* Build configuration list for PBXProject "Pong" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 39A50EBD1475B5AA00D165D9;
+			productRefGroup = 39A50EC91475B5AA00D165D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39A50EC71475B5AA00D165D9 /* Pong */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39A50EC61475B5AA00D165D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39A50ED71475B5AB00D165D9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39A50EC41475B5AA00D165D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39A50ED91475B5AB00D165D9 /* main.m in Sources */,
+				39A50EDD1475B5AB00D165D9 /* PongAppDelegate.m in Sources */,
+				39A50EE51475B68300D165D9 /* ViewController.m in Sources */,
+				39A50EE81475B69300D165D9 /* View.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		39A50ED51475B5AB00D165D9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39A50ED61475B5AB00D165D9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		39A50EDE1475B5AB00D165D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		39A50EDF1475B5AB00D165D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39A50EE11475B5AB00D165D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pong/Pong-Prefix.pch";
+				INFOPLIST_FILE = "Pong/Pong-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		39A50EE21475B5AB00D165D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pong/Pong-Prefix.pch";
+				INFOPLIST_FILE = "Pong/Pong-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39A50EC21475B5AA00D165D9 /* Build configuration list for PBXProject "Pong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39A50EDE1475B5AB00D165D9 /* Debug */,
+				39A50EDF1475B5AB00D165D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39A50EE01475B5AB00D165D9 /* Build configuration list for PBXNativeTarget "Pong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39A50EE11475B5AB00D165D9 /* Debug */,
+				39A50EE21475B5AB00D165D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 39A50EBF1475B5AA00D165D9 /* Project object */;
+}
